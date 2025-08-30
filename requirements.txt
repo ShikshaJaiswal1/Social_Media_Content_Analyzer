@@ -1,0 +1,5 @@
+Flask
+PyPDF2
+pytesseract
+pillow
+textblob

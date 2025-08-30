@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📊 Social Media Content Analyzer</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Social Media Content Analyzer</h1>
+    <p class="subtitle">Upload your PDF or Image post and get AI-powered engagement tips</p>
+
+    <!-- Upload Section -->
+    <div class="upload-box" id="uploadBox">
+      <p>📂 Drag & Drop your file here</p>
+      <span>or</span>
+      <button id="browseBtn">Browse File</button>
+      <input type="file" id="fileInput" hidden>
+    </div>
+
+    <!-- Results Grid -->
+    <div id="result" class="result-grid hidden"></div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
